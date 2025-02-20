@@ -1,0 +1,12 @@
+edit*
+outputs*
+venv
+wandb
+*.safetensors
+*.png
+*.jpg
+*/**/__pycache__
+.DS_Store
+train*
+*.yaml
+scripts
