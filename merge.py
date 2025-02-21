@@ -1,5 +1,5 @@
 
-from src.pipeline_scale import FluxPipeline
+from src.pipeline_pe_clone import FluxPipeline
 import torch
 from PIL import Image
 pretrained_model_name_or_path = "black-forest-labs/FLUX.1-dev"

@@ -1,5 +1,5 @@
 import argparse
-from src.pipeline_scale import FluxPipeline
+from src.pipeline_pe_clone import FluxPipeline
 import torch
 from PIL import Image
 
