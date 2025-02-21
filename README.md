@@ -5,7 +5,7 @@
 > [Huang Shijie](https://scholar.google.com/citations?user=HmqYYosAAAAJ), 
 > [Yiren Song](https://scholar.google.com.hk/citations?user=L2YS0jgAAAAJ), 
 > [Yuxuan Zhang](https://scholar.google.com/citations?user=f2VoRWYAAAAJ), 
-> Hailong Guo, 
+> [Hailong Guo](https://github.com/logn-2024), 
 > Xueyin Wang, 
 > and 
 > [Mike Zheng Shou](https://sites.google.com/view/showlab),
