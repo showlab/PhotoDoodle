@@ -4,7 +4,7 @@
 > <br>
 > [Huang Shijie](https://scholar.google.com/citations?user=HmqYYosAAAAJ), 
 > [Yiren Song](https://scholar.google.com.hk/citations?user=L2YS0jgAAAAJ), 
-> [Yuxuan Zhang](https://scholar.google.com/citations?user=f2VoRWYAAAAJ), 
+> [Yuxuan Zhang]([https://scholar.google.com/citations?user=f2VoRWYAAAAJ](https://xiaojiu-z.github.io/YuxuanZhang.github.io/)), 
 > [Hailong Guo](https://github.com/logn-2024), 
 > Xueyin Wang, 
 > and 
@@ -122,7 +122,7 @@ We have uploaded our datasets to [Hugging Face](https://huggingface.co/datasets/
 
 ### 6. Acknowledgments  
 
-1. Thanks to **[Yuxuan Zhang](mailto:1312486742@qq.com)** and **[Hailong Guo](mailto:guohailong@bupt.edu.cn)** for providing the foundational code.  
+1. Thanks to **[Yuxuan Zhang](https://xiaojiu-z.github.io/YuxuanZhang.github.io/)** and **[Hailong Guo](mailto:guohailong@bupt.edu.cn)** for providing the foundational code.  
 2. Thanks to **[Diffusers](https://github.com/huggingface/diffusers)** for the open-source project.
 
 ## Citation
