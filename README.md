@@ -122,7 +122,7 @@ We have uploaded our datasets to [Hugging Face](https://huggingface.co/datasets/
 
 ### 6. Acknowledgments  
 
-1. Thanks to **[Zhang Yuan](mailto:1312486742@qq.com)** and **[Guo Hailong](mailto:guohailong@bupt.edu.cn)** for providing the foundational code.  
+1. Thanks to **[Yuxuan Zhang](mailto:1312486742@qq.com)** and **[Hailong Guo](mailto:guohailong@bupt.edu.cn)** for providing the foundational code.  
 2. Thanks to **[Diffusers](https://github.com/huggingface/diffusers)** for the open-source project.
 
 ## Citation
