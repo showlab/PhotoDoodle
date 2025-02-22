@@ -112,8 +112,18 @@ Example format:
 {"source": "path/to/source2.jpg", "target": "path/to/modified2.jpg", "caption": "Another instruction"}
 ```
 
-We have uploaded our datasets on [Hugging Face](https://huggingface.co/datasets/nicolaus-huang/PhotoDoodle).
+We have uploaded our datasets to [Hugging Face](https://huggingface.co/datasets/nicolaus-huang/PhotoDoodle).
 
+
+### 5. Results
+
+![R-F](./assets/R-F.jpg)
+
+
+### 6. Acknowledgments  
+
+1. Thanks to **[Zhang Yuan](mailto:1312486742@qq.com)** and **[Guo Hailong](mailto:guohailong@bupt.edu.cn)** for providing the foundational code.  
+2. Thanks to **[Diffusers](https://github.com/huggingface/diffusers)** for the open-source project.
 
 ## Citation
 ```
