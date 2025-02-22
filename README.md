@@ -4,7 +4,7 @@
 > <br>
 > [Huang Shijie](https://scholar.google.com/citations?user=HmqYYosAAAAJ), 
 > [Yiren Song](https://scholar.google.com.hk/citations?user=L2YS0jgAAAAJ), 
-> [Yuxuan Zhang]([https://scholar.google.com/citations?user=f2VoRWYAAAAJ](https://xiaojiu-z.github.io/YuxuanZhang.github.io/)), 
+> [Yuxuan Zhang](https://xiaojiu-z.github.io/YuxuanZhang.github.io/), 
 > [Hailong Guo](https://github.com/logn-2024), 
 > Xueyin Wang, 
 > and 
