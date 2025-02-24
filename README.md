@@ -18,6 +18,8 @@
 <a href="https://huggingface.co/nicolaus-huang/PhotoDoodle"><img src="https://img.shields.io/badge/🤗_HuggingFace-Model-ffbd45.svg" alt="HuggingFace"></a>
 <a href="https://huggingface.co/datasets/nicolaus-huang/PhotoDoodle/"><img src="https://img.shields.io/badge/🤗_HuggingFace-Dataset-ffbd45.svg" alt="HuggingFace"></a>
 
+<a href="https://huggingface.co/spaces/ameerazam08/PhotoDoodle-Image-Edit-GPU"><img src="https://img.shields.io/badge/🤗_HuggingFace-Space-ffbd45.svg" alt="HuggingFace"></a>
+
 <br>
 
 <img src='./assets/teaser.png' width='100%' />
