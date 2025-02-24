@@ -97,7 +97,6 @@ You would need to load and fuse the `pretrained ` checkpoints model in order to 
 | [sksmagiceffects](https://huggingface.co/nicolaus-huang/PhotoDoodle/blob/main/sksmagiceffects.safetensors) |      PhotoDoodle model trained on `3D effects` dataset      |    768, 512    |
 | [skspaintingeffects ](https://huggingface.co/nicolaus-huang/PhotoDoodle/blob/main/skspaintingeffects.safetensors) | PhotoDoodle model trained on `Flowing color blocks` dataset |    768, 512    |
 | [sksedgeeffect ](https://huggingface.co/nicolaus-huang/PhotoDoodle/blob/main/sksedgeeffect.safetensors) |  PhotoDoodle model trained on `Hand-drawn outline` dataset  |    768, 512    |
-| [skscatooneffect ](https://huggingface.co/nicolaus-huang/PhotoDoodle/blob/main/skscatooneffect.safetensors) |   PhotoDoodle model trained on `Sports painting` dataset    |    768, 512    |
 
 
 ### 4. Dataset
