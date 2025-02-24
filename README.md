@@ -121,7 +121,7 @@ We have uploaded our datasets to [Hugging Face](https://huggingface.co/datasets/
 
 ### 6. Acknowledgments  
 
-1. Thanks to **[Yuxuan Zhang](https://xiaojiu-z.github.io/YuxuanZhang.github.io/)** and **[Hailong Guo](mailto:guohailong@bupt.edu.cn)** for providing the foundational code.  
+1. Thanks to **[Yuxuan Zhang](https://xiaojiu-z.github.io/YuxuanZhang.github.io/)** and **[Hailong Guo](mailto:guohailong@bupt.edu.cn)** for providing the code base.  
 2. Thanks to **[Diffusers](https://github.com/huggingface/diffusers)** for the open-source project.
 
 ## Citation
