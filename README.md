@@ -13,6 +13,8 @@
 > <br>
 > [Show Lab](https://sites.google.com/view/showlab), National University of Singapore
 > <br>
+> Tiamat AI
+> <br>
 
 <a href="https://arxiv.org/abs/2502.14397"><img src="https://img.shields.io/badge/ariXv-2502.14397-A42C25.svg" alt="arXiv"></a>
 <a href="https://huggingface.co/nicolaus-huang/PhotoDoodle"><img src="https://img.shields.io/badge/🤗_HuggingFace-Model-ffbd45.svg" alt="HuggingFace"></a>
