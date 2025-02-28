@@ -19,7 +19,6 @@
 <a href="https://arxiv.org/abs/2502.14397"><img src="https://img.shields.io/badge/ariXv-2502.14397-A42C25.svg" alt="arXiv"></a>
 <a href="https://huggingface.co/nicolaus-huang/PhotoDoodle"><img src="https://img.shields.io/badge/🤗_HuggingFace-Model-ffbd45.svg" alt="HuggingFace"></a>
 <a href="https://huggingface.co/datasets/nicolaus-huang/PhotoDoodle/"><img src="https://img.shields.io/badge/🤗_HuggingFace-Dataset-ffbd45.svg" alt="HuggingFace"></a>
-
 <a href="https://huggingface.co/spaces/ameerazam08/PhotoDoodle-Image-Edit-GPU"><img src="https://img.shields.io/badge/🤗_HuggingFace-Space-ffbd45.svg" alt="HuggingFace"></a>
 
 <br>
@@ -127,6 +126,7 @@ We have uploaded our datasets to [Hugging Face](https://huggingface.co/datasets/
 
 1. Thanks to **[Yuxuan Zhang](https://xiaojiu-z.github.io/YuxuanZhang.github.io/)** and **[Hailong Guo](mailto:guohailong@bupt.edu.cn)** for providing the code base.  
 2. Thanks to **[Diffusers](https://github.com/huggingface/diffusers)** for the open-source project.
+2. Thanks to [AMEERAZAM08](https://github.com/AMEERAZAM08) for contributing the huggingface space demo.
 
 ## Citation
 ```
