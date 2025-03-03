@@ -26,7 +26,7 @@
 <img src='./assets/teaser.png' width='100%' />
 
 ## Community Resources
-[smthemex/ComfyUI_PhotoDoodle](https://github.com/smthemex/ComfyUI_PhotoDoodle): Intergrating PhotoDoodle into Comfyui nodes.
+[smthemex/ComfyUI_PhotoDoodle](https://github.com/smthemex/ComfyUI_PhotoDoodle): Intergrating PhotoDoodle into Comfyui nodes, 12 GB GPU memory required for inferencing.
 
 [ameerazam08/PhotoDoodle-Image-Edit-GPU](https://huggingface.co/spaces/ameerazam08/PhotoDoodle-Image-Edit-GPU): PhotoDoodle deployment on huggingface space.
 
