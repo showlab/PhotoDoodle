@@ -25,6 +25,11 @@
 
 <img src='./assets/teaser.png' width='100%' />
 
+## Community Resources
+[smthemex/ComfyUI_PhotoDoodle](https://github.com/smthemex/ComfyUI_PhotoDoodle): Intergrating PhotoDoodle into Comfyui nodes.
+
+[ameerazam08/PhotoDoodle-Image-Edit-GPU](https://huggingface.co/spaces/ameerazam08/PhotoDoodle-Image-Edit-GPU): PhotoDoodle deployment on huggingface space.
+
 
 ## Quick Start
 ### Configuration
@@ -126,7 +131,8 @@ We have uploaded our datasets to [Hugging Face](https://huggingface.co/datasets/
 
 1. Thanks to **[Yuxuan Zhang](https://xiaojiu-z.github.io/YuxuanZhang.github.io/)** and **[Hailong Guo](mailto:guohailong@bupt.edu.cn)** for providing the code base.  
 2. Thanks to **[Diffusers](https://github.com/huggingface/diffusers)** for the open-source project.
-2. Thanks to **[AMEERAZAM08](https://github.com/AMEERAZAM08)** for contributing the huggingface space demo.
+3. Thanks to **[AMEERAZAM08](https://github.com/AMEERAZAM08)** for contributing the huggingface space demo.
+4. Thanks to **[smthemex](https://github.com/smthemex)** for contributing the comfyui intergration.
 
 ## Citation
 ```
