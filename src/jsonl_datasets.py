@@ -12,6 +12,7 @@ def make_train_dataset(args, tokenizer, accelerator=None):
     if args.train_data_dir is not None:
         print("load_data")
         dataset = load_dataset('json', data_files=args.train_data_dir)
+        base_path = os.path.dirname(os.path.abspath(args.train_data_dir))
 
     column_names = dataset["train"].column_names
 
@@ -94,8 +95,10 @@ def make_train_dataset(args, tokenizer, accelerator=None):
     def preprocess_train(examples):
         _examples = {}        
 
-        source_images = [Image.open(image).convert("RGB") for image in examples[source_column]]
-        target_images = [Image.open(image).convert("RGB") for image in examples[target_column]]
+        source_images = [Image.open(os.path.join(base_path, image)).convert("RGB") 
+                        for image in examples[source_column]]
+        target_images = [Image.open(os.path.join(base_path, image)).convert("RGB") 
+                        for image in examples[target_column]]
 
         _examples["cond_pixel_values"] = [train_transforms(source) for source in source_images]
         _examples["pixel_values"] = [train_transforms(image) for image in target_images]

@@ -91,9 +91,27 @@ or simply run the inference script:
 python inference.py
 ```
 
+### 3. Train
+
+#### 3.1 Get data from huggingface dataset
+```
+huggingface-cli download --repo-type dataset --local-dir data nicolaus-huang/PhotoDoodle
+```
+
+#### 3.2 Get pretrained model for edit-lora trainning
+```
+python merge_pretrain.py
+```
+
+#### 3.3 Train!
+```
+bash train_sksmonstercalledlulu.sh
+```
+
+For personalized PhotoDoodles, please check the data folder and orgnize data like ours.
 
 
-### 3. Weights
+### 4. Weights
 You can download the trained checkpoints of PhotoDoodle for inference. Below are the details of available models, checkpoint name are also trigger words.
 
 You would need to load and fuse the `pretrained ` checkpoints model in order to load the other models.
@@ -107,7 +125,7 @@ You would need to load and fuse the `pretrained ` checkpoints model in order to 
 | [sksedgeeffect ](https://huggingface.co/nicolaus-huang/PhotoDoodle/blob/main/sksedgeeffect.safetensors) |  PhotoDoodle model trained on `Hand-drawn outline` dataset  |    768, 512    |
 
 
-### 4. Dataset
+### 5. Dataset
 <span id="dataset_setting"></span>
 #### 2.1 Settings for dataset
 The training process uses a paired dataset stored in a .jsonl file, where each entry contains image file paths and corresponding text descriptions. Each entry includes the source image path, the target (modified) image path, and a caption describing the modification.
@@ -122,12 +140,12 @@ Example format:
 We have uploaded our datasets to [Hugging Face](https://huggingface.co/datasets/nicolaus-huang/PhotoDoodle).
 
 
-### 5. Results
+### 6. Results
 
 ![R-F](./assets/R-F.jpg)
 
 
-### 6. Acknowledgments  
+### 7. Acknowledgments  
 
 1. Thanks to **[Yuxuan Zhang](https://xiaojiu-z.github.io/YuxuanZhang.github.io/)** and **[Hailong Guo](mailto:guohailong@bupt.edu.cn)** for providing the code base.  
 2. Thanks to **[Diffusers](https://github.com/huggingface/diffusers)** for the open-source project.

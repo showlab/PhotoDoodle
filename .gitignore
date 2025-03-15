@@ -5,6 +5,7 @@ wandb
 *.safetensors
 */**/__pycache__
 .DS_Store
-train*
 *.yaml
 scripts
+PhotoDoodle_Pretrain
+data
