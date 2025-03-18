@@ -49,7 +49,7 @@ pip install --upgrade -r requirements.txt
 
 
 ### 2. Inference
-We provided the intergration of diffusers pipeline with our model and uploaded the model weights to huggingface, it's easy to use the our model as example below:
+We provided the integration of diffusers pipeline with our model and uploaded the model weights to huggingface, it's easy to use the our model as example below:
 
 ```bash
 from src.pipeline_pe_clone import FluxPipeline
@@ -150,7 +150,7 @@ We have uploaded our datasets to [Hugging Face](https://huggingface.co/datasets/
 1. Thanks to **[Yuxuan Zhang](https://xiaojiu-z.github.io/YuxuanZhang.github.io/)** and **[Hailong Guo](mailto:guohailong@bupt.edu.cn)** for providing the code base.  
 2. Thanks to **[Diffusers](https://github.com/huggingface/diffusers)** for the open-source project.
 3. Thanks to **[AMEERAZAM08](https://github.com/AMEERAZAM08)** for contributing the huggingface space demo.
-4. Thanks to **[smthemex](https://github.com/smthemex)** for contributing the comfyui intergration.
+4. Thanks to **[smthemex](https://github.com/smthemex)** for contributing the comfyui integration.
 
 ## Citation
 ```
