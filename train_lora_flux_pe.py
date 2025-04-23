@@ -676,19 +676,6 @@ def main(args):
     accelerator.register_save_state_pre_hook(save_model_hook)
     accelerator.register_load_state_pre_hook(load_model_hook)
 
-    # Potentially load in the weights and states from a previous save
-    if args.resume_from_checkpoint:
-        path = args.resume_from_checkpoint
-        global_step = int(path.split("-")[-1])
-        initial_global_step = global_step
-        accelerator.print(f"Resuming from checkpoint {path}")
-        accelerator._models.append(transformer)
-        accelerator.load_state(path)
-        first_epoch = 0
-    else:
-        initial_global_step = 0
-        global_step = 0
-        first_epoch = 0
 
     if args.scale_lr:
         args.learning_rate = (
@@ -753,6 +740,19 @@ def main(args):
     transformer, optimizer, train_dataloader, lr_scheduler = accelerator.prepare(
         transformer, optimizer, train_dataloader, lr_scheduler
     )
+
+    # Potentially load in the weights and states from a previous save
+    if args.resume_from_checkpoint:
+        path = args.resume_from_checkpoint
+        global_step = int(path.split("-")[-1])
+        initial_global_step = global_step
+        accelerator.print(f"Resuming from checkpoint {path}")
+        accelerator.load_state(path)
+        first_epoch = 0
+    else:
+        initial_global_step = 0
+        global_step = 0
+        first_epoch = 0
 
     # We need to recalculate our total training steps as the size of the training dataloader may have changed.
     num_update_steps_per_epoch = math.ceil(len(train_dataloader) / args.gradient_accumulation_steps)
